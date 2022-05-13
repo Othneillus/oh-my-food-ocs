@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    display: block;
+}
+/*HEADER*/
+header {
+    background-color: white;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+}
+/*LOGO*/
+
+.logo {
+
+}
+
+/*MENU*/
+
+.localisation {
+
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.btn {
+    align-items: center;
+    border-radius: 100px;
+    color: #fff;
+    background-image: linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    cursor: pointer;
+    transition-duration: .25s;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+    padding: 15px;
+}
+
+.btn-menu {
+
+}
+
+/*RESTAURANTS*/
+
+.restaurants {
+
+}
+
+.restaurants img {
+    width: 420px;
+    object-fit: cover;
+}
